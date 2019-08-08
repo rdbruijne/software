@@ -10,8 +10,9 @@ Install using `CopyFullPath.exe -install`.
 Strings scans the file you pass it for UNICODE (or ASCII) strings of a default length of 3 or more UNICODE (or ASCII) characters.
 
 **usage: strings [-a] [-f offset] [-b bytes] [-n length] [-o] [-q] [-s] [-u] <file or directory>**
+  
 | Parameter | Description |
-|--|--|
+| --- | --- |
 | `-a` | Ascii-only search (Unicode and Ascii is default) |
 | `-b` | Bytes of file to scan |
 | `-f` | File offset at which to start scanning. |
